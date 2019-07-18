@@ -1,0 +1,219 @@
+body {
+  font: 400 16px/1.2em lato, verdana, arial, sans-serif;
+  color: #2d3c49;
+  letter-spacing: 1.5px;
+  min-width: 132px;
+  margin-left: 12px;
+  margin-right: 12px;
+  width: 100%;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #7d97ad;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1390px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box-logo {
+  width: 10%;
+}
+
+.box-author {
+  margin-top: 15px;
+  width: 90%;
+  text-align: right;
+}
+
+.logo {
+  max-width: 130px;
+  min-width: 65px;
+}
+
+.font-title {
+  font: 200 2.5rem/1.2em Rockwell, Georgia, times, serif;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.font-super {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.box-banner {
+  margin-bottom: 16px;
+}
+
+.subtitle {
+  width: 100%;
+}
+
+.font-tile {
+  font-size: 1.5rem;
+}
+
+.tile-bar {
+  background-color: #2d3c49;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin: 2px 0 10px 0;
+  max-width: 450px;
+}
+
+.line-grey {
+  width: 100%;
+  height: 3px;
+  background-color: #7d97ad;
+}
+
+.copyright {
+  font-size: .875rem;
+}
+
+#page-top {
+  margin-top: 48px;
+  justify-content: center;
+}
+
+#page-bottom {
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+
+@media screen and (max-width: 309px) {
+  .box-banner {
+    display: none;
+  }
+
+  .box-logo {
+    width: 100%;
+    text-align: center;
+  }
+
+  .logo {
+    width: 65px;
+  }
+
+  .box-author {
+    text-align: center;
+  }
+
+  .font-title {
+    font-size: 22px;
+  }
+
+  .font-tile {
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 309px) {
+  .font-title {
+    font-size: 22px;
+  }
+
+  .font-tile {
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  .font-title {
+    font-size: 28px;
+  }
+
+  .font-tile {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  .logo {
+    width: 80px;
+  }
+
+  .tile1,
+  .tile2,
+  .tile3 {
+    width: calc((100% - 10px)/2);
+  }
+
+  .tile1 {
+    margin-right: 10px;
+  }
+
+  .tile2,
+  .tile3 {
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 540px) {
+  .font-title {
+    font-size: 40px;
+  }
+
+  .font-tile {
+    font-size: 24px;
+  }
+
+  .font-super {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  .logo {
+    width: 130px;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .tile1,
+  .tile2,
+  .tile3 {
+    width: calc((100% - 20px)/3);
+  }
+
+  .tile1,
+  .tile2 {
+    margin-right: 10px;
+  }
+
+  .tile3 {
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 870px) {
+  .box-author {
+    text-align: center;
+  }
+}
